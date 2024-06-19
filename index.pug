@@ -1,0 +1,282 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Tokners - Landing Page
+  link(rel='stylesheet', href='output.css')
+  link(rel='stylesheet', href='input.css')
+  link(rel='stylesheet', href='style.css')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap', rel='stylesheet')
+  script(src='https://kit.fontawesome.com/d633f21f4a.js', crossorigin='anonymous')
+img.absolute.-z-10.right-0.top-0(src='imgs/bg-1.png', alt='')
+header.flex.items-center.justify-center(class='h-[84px]')
+  .container.flex.items-center.justify-between
+    .logo-holder.w-32
+      img(src='imgs/logo.png', alt='')
+    .menu-icon.block.text-white.text-2xl(class='md:hidden z-[9999]')
+      i.fa-solid.fa-bars
+    nav.hidden.items-center.justify-between.text-white.flex-col(class='md:flex md:flex-row md:gap-10')
+      ul
+        li.main-link
+          a.underline(href='#') our team
+        li.main-link
+          a.underline(href='#') tokens
+        li.main-link
+          a.underline(href='#') connect wallet
+        li.main-link
+          a.underline(href='#') lightpaper
+      ul
+        li.main-link
+          a.underline(href='#') sign in
+        li.main-link.main-btn.bg-white.text-black.transition-all.duration-300.shadow-2xl(class='hover:bg-green')
+          a.underline(href='#')
+            | sign
+            | up
+section.py-10.flex.items-center.justify-center.mb-10(class='h-[calc(100vh_-_84px)]')
+  .container.flex.flex-col-reverse.items-center.justify-center.gap-5(class='md:flex-row md:justify-between md:gap-10')
+    div
+      span.text-blue.text-center.block.mb-5.font-bold(class='md:text-start md:mb-1') At Tokners are
+      h2.font-bold.text-2xl.mb-5.leading-relaxed
+        | Reimagining social media through the power of the blockchain.
+      p.text-lightBlack.text-xs.mb-5.opacity-50(class='md:mb-7 md:text-xl')
+        | We are creating social media 3.0 with influencers, celebrities and creators being able to launch
+        | their own digital currency by simply creating a profile with media content posted as Non fungible
+        | Tokens that can be owned and traded on the Tokners network
+      a.main-btn.bg-green.border-2.border-transparent.transition-all.duration-300.text-white.mb-5(class='hover:text-green hover:border-green hover:bg-transparent md:mb-7', href='#') Learn More
+    div
+      img(src='imgs/1.png', alt='')
+section.text-center.relative.grid.h-fit.gap-20
+  img.hidden.absolute.left-0.w-full.object-cover(class='lg:block -z-[1000] bottom-[-50px]', src='imgs/bg-2.png', alt='')
+  .container.grid.grid-cols-1.grid-rows-2.gap-10.items-center.justify-items-center(class='md:grid-cols-2 md:grid-rows-1 md:gap-0')
+    .group.bg-slate-100.p-8.flex.flex-col.items-center.justify-between.gap-0.overflow-hidden.rounded-2xl.shadow-md.transition-all.duration-300(class='hover:bg-slate-200 hover:shadow-2xl h-[490px] w-[75%]')
+      div
+        h2.font-bold.text-2xl
+          | For 
+          span.underline.text-green Creators
+        p.my-4.xt-lightBlack.text-xs.opacity-50
+          | Creators can gain independence through a
+          | decentralised digital currency system that
+          | is
+          | dependent on growing and engaging with the community and also their star power. They own
+          | 10-15% of the total value of the tokens minted.
+      .w-40
+        img.transition-all.duration-300(class='group-hover:scale-125 group-hover:translate-y-10', src='imgs/3.png', alt='')
+    .group.bg-slate-100.p-8.flex.flex-col.items-center.justify-between.gap-0.overflow-hidden.rounded-2xl.shadow-md.transition-all.duration-300(class='hover:bg-slate-200 hover:shadow-2xl h-[490px] w-[75%]')
+      div
+        h2.font-bold.text-2xl
+          | For 
+          span.underline.text-blue Hodlers
+        p.my-4.xt-lightBlack.text-xs.opacity-50
+          | Holding social tokens allows the individual to gain
+          | access to benefits including
+          | unreleased
+          | content, private communities, direct access to celebrity, early-access to tickets and more as
+          | well
+          | as the ability to trade with other communities in order to gain access to more creator content
+          | with
+          | early token buyers being the biggest winners as the value of the token increases with more
+          | buyers.
+      .w-40
+        img.transition-all.duration-300(class='group-hover:scale-125 group-hover:translate-y-10', src='imgs/2.png', alt='')
+  .container.text-start.flex.flex-col.items-center.justify-center.gap-10(class='md:flex-row md:items-start')
+    .flex.gap-5.items-center.px-5
+      img(src='imgs/logo-shape.png', alt='')
+      h2.text-blue.text-2xl.font-extrabold(class='xl:text-white') What makes us different?
+    .flex.flex-col.gap-5.px-5(class='basis-1/2')
+      p.font-medium.text-blue(class='xl:text-white')
+        | We would only
+        | launch tokens with the express
+        | permission of the creators.
+      p.opacity-50.text-xm.leading-relaxed.text-lightBlack(class='lg:text-lightGray')
+        | There are several thousand celebrities and creators on twitter, tiktok, Instagram and YouTube with
+        | followings in the millions who we would be actively engaging before we go viral.
+      p.opacity-50.text-xm.leading-relaxed.text-lightBlack(class='lg:text-lightGray')
+        | We would get them on our
+        | platform and they would see the opportunity to create a fan driven digital economy where their
+        | digital content can be traded as NFTs and their most loyal fans can have the monetary value of their
+        | creator&apos;s currency increase significantly as they promote their digital currency across their
+        | channels while our native token holders benefit from the Tokners popularity.
+section.py-10.relative(class='md:mb-10')
+  img.absolute.right-0.top-0.w-44(class='-z-[1000]', src='imgs/areplane.png', alt='')
+  .container
+    .w-full.grid.grid-cols-1.grid-rows-4.gap-5(class='md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1')
+      .card
+        .mb-10.border-4.border-x-0.border-t-0.border-dotted(class='rounded-bl-[30%] py-[23px] px-[17px]')
+          span.text-green.font-bold Q1
+          p.font-bold.text-xl.mb-3.relative(class='before:bg-green before:absolute before:w-2 before:h-2 before:rounded-full before:-left-7 before:top-[80%]')
+            | 2021
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 01
+          | Team
+          |                         set-up
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 02
+          | Launch
+          |                         of
+          |                         informational website
+      .card
+        .mb-10.border-4.border-x-0.border-t-0.border-dotted(class='rounded-bl-[30%] py-[23px] px-[17px]')
+          span.text-green.font-bold Q2
+          p.font-bold.text-xl.mb-3.relative(class='before:bg-green before:absolute before:w-2 before:h-2 before:rounded-full before:-left-7 before:top-[80%]')
+            | 2021
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 01
+          | Presale
+          |                         and exchange listings
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 02
+          | Blockchain development and launch
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 03
+          | Launch
+          |                         of our MVP
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 04
+          | Influencer agency partnerships
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 05
+          | Marketing and promotion
+      .card
+        .mb-10.border-4.border-x-0.border-t-0.border-dotted(class='rounded-bl-[30%] py-[23px] px-[17px]')
+          span.text-green.font-bold Q3
+          p.font-bold.text-xl.mb-3.relative(class='before:bg-green before:absolute before:w-2 before:h-2 before:rounded-full before:-left-7 before:top-[80%]')
+            | 2021
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 01
+          | Creator
+          |                         and Influencer partnerships
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 02
+          | creator
+          |                         communities on our platform
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 03
+          | More
+          |                         Marketing and promotion
+      .card
+        .mb-10.border-4.border-x-0.border-t-0.border-dotted(class='rounded-bl-[30%] py-[23px] px-[17px]')
+          span.text-green.font-bold Q4
+          p.font-bold.text-xl.mb-3.relative(class='before:bg-green before:absolute before:w-2 before:h-2 before:rounded-full before:-left-7 before:top-[80%]')
+            | 2021
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 01
+          | Mainstream partnerships
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 02
+          | 500
+          |                         active creator coammunities
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 03
+          | 2Million
+          |                         active community members
+        p.text-lightBlack.opacity-60.text-sm
+          span.mr-4.text-blue.text-sm 03
+          | More
+          |                         Marketing and promotion
+section.relative.py-5(class='md:py-40')
+  img.absolute.w-full.h-full.right-0.bottom-0.hidden(class='-z-[8] md:block', src='imgs/bg-3.png', alt='')
+  .container.flex.flex-col-reverse(class='md:flex-row')
+    .flex.flex-col.gap-3(class='basis-1/2')
+      h2.font-bold.text-2xl Tokners is coming
+      p.text-xs.font-medium
+        | Cryptocurrency adoption is at less than 1% of the global world population
+        | with some
+        | countries
+        | and entities actively fighting against its mass adoption and the smartest developers and nerds
+        | holding the fort.
+      p.text-lightBlack.opacity-60.text-xs
+        | Bitcoin was the first, and it has since grown to thousands
+        | of tokens launched all
+        | aiming to fix one problem or the other with some quite simply FOMOing the moment. Our goal is
+        | to bring mass adoption to the cryptocurrency space by dumbing it down. How far down? So
+        | down that even a celebrity can explain it in simple words to their followers and have them
+        | download an app, buy into the social currency of their favourite person and watch their
+        | investment as is with other cryptocurrency project.
+      p.text-lightBlack.opacity-60.text-xs
+        | We are trying to do to this space what
+        | investment apps did for the &quot;nonexistent retail investors&quot;. We are gamefying digital currency,
+        | bringing in popular faces instead of hard to understand projects to make it the norm and
+        | inadvertently being the &quot;gateway drug&quot; for a lot of people to finally give this space a real look.
+      p.text-xs.font-medium
+        | A new digital economy is coming. People would be just as powerful as
+        | countries and creators
+        | would be paid beyond the peanuts that conventional social media platforms can offer.
+      p.text-lightBlack.opacity-60.text-xs
+        | There
+        | would be new markets and advertisers with little to offer would not find home there. Like Kanye
+        | said, &quot;Personalities would become the new currency, and services would be built on top of them&quot;.
+        | Well, Kanye didn&apos;t exactly say that, but it sounds like something we hope he would say.
+      p.text-lightBlack.opacity-60.text-xs
+        | Currency is digital, it has been that way for a while now,
+        | but this time there would be no
+        | dead
+        | presidents on the money, there would people like you on the money, and you would own it
+        | because it would make the most sense in the world.
+    .group.relative.flex.items-center.justify-center.duration-300.transition-all(class='basis-1/2 before:absolute before:w-[85%] before:h-[75%] before:-z-[8] before:rounded-3xl before:shadow-md hover:before:shadow-2xl before:duration-300 before:transition-all before:bg-[#F7F5F9]')
+      img.z-10.duration-300.transition-all(class='group-hover:scale-110', src='imgs/6.png', alt='')
+section.relative.py-5.mt-40(class='md:py-40')
+  img.absolute.right-0.bottom-0.hidden.w-full.object-cover(class='-z-[9] md:block', src='imgs/bg-4.png', alt='')
+  .container
+    h2.text-white.text-center.mb-5.font-bold.text-3xl Presale Details
+    .holder.grid.grid-cols-1.grid-rows-3.gap-5.pb-10(class='md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1')
+      .card.relative.z-10.bg-white.p-4.text-center.flex.flex-col.items-center.justify-center.gap-3.rounded-3xl.shadow-xl.duration-300.transition-all(class='h-[340px] hover:-translate-y-10 md:hover:-translate-y-10 hover:shadow-2xl')
+        span.text-shadow.opacity-25.absolute.text-8xl.text-white(class='z-[-1] top-1/4 -translate-y-1/2') 01
+        div
+          h4.text-2xl.font-bold.opacity-75.leading-loose.tracking-wider phase One
+          p.text-xl.font-bold.opacity-75.leading-loose 0/04/2021 - 16/04/2021
+        div
+          p.leading-relaxed.font-medium.mb-3.text-xl 1 BNB = 100000 Tokners
+          p.leading-relaxed.font-medium Soft cap: 5000 BNB
+          p.leading-relaxed.font-medium Hard cap: 10000 BNB
+      .card.relative.z-10.bg-white.p-4.text-center.flex.flex-col.items-center.justify-center.gap-3.rounded-3xl.shadow-xl.duration-300.transition-all(class='h-[340px] lg:translate-y-10 hover:-translate-y-0 hover:shadow-2xl')
+        img.absolute.right-0(class='-z-[9] -bottom-[15px] md:bottom-[-30px] w-[30%] md:block', src='imgs/4.png', alt='')
+        span.text-shadow.opacity-25.absolute.text-8xl.text-white(class='z-[-1] top-1/4 -translate-y-1/2') 02
+        div
+          h4.text-2xl.font-bold.opacity-75.leading-loose.tracking-wider phase Two
+          p.text-xl.font-bold.opacity-75.leading-loose 0/04/2021 - 16/04/2021
+        div
+          p.leading-relaxed.font-medium.mb-3.text-xl 1 BNB = 100000 Tokners
+          p.leading-relaxed.font-medium Soft cap: 5000 BNB
+          p.leading-relaxed.font-medium Hard cap: 10000 BNB
+        img.absolute.-left-4(class='-z-[9] -bottom-[15px] md:bottom-[-30px] w-[30%] md:block', src='imgs/5.png', alt='')
+      .card.relative.z-10.bg-white.p-4.text-center.flex.flex-col.items-center.justify-center.gap-3.rounded-3xl.shadow-xl.duration-300.transition-all(class='h-[340px] hover:translate-y-10 hover:shadow-2xl')
+        span.text-shadow.opacity-25.absolute.text-8xl.text-white(class='z-[-1] top-1/4 -translate-y-1/2') 03
+        div
+          h4.text-2xl.font-bold.opacity-75.leading-loose.tracking-wider phase Three
+          p.text-xl.font-bold.opacity-75.leading-loose 0/04/2021 - 16/04/2021
+        div
+          p.leading-relaxed.font-medium.mb-3.text-xl 1 BNB = 100000 Tokners
+          p.leading-relaxed.font-medium Soft cap: 5000 BNB
+          p.leading-relaxed.font-medium Hard cap: 10000 BNB
+    .py-10.mt-10.flex.flex-col.gap-2.text-center.text-blue(class='md:text-white')
+      h2.font-bold.text-3xl How to buy
+      p.text-blue(class='md:text-white')
+        | First Connect your Metamask or TrustWallet to the &quot;Connect Wallet&quot; on
+        | the Homepage.
+      i.text-blue.fa-solid.fa-sort-down(class='md:text-white')
+      p.text-blue(class='md:text-white')
+        | Then send minimum of 0.1 BNB or maximum of 10 BNB to the Presale
+        | wallet
+      i.text-blue.fa-solid.fa-sort-down(class='md:text-white')
+      p.text-blue(class='md:text-white')
+        | Then after you will received your $Tokners to your address within
+        | 24hours.
+footer.py-20
+  .container.text-white
+    .grid.grid-cols-1.grid-rows-3.items-center.justify-center.justify-items-center.gap-5(class='md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1')
+      div
+        img(src='imgs/logo-2.png', alt='')
+      .flex.items-center.gap-3
+        i.fa-brands.fa-twitter.bg-blue.p-2.rounded-lg.cursor-pointer.transition-all.duration-300(class='hover:rounded-full')
+        i.fa-brands.fa-telegram.bg-blue.p-2.rounded-lg.cursor-pointer.transition-all.duration-300(class='hover:rounded-full')
+        i.fa-brands.fa-instagram.bg-blue.p-2.rounded-lg.cursor-pointer.transition-all.duration-300(class='hover:rounded-full')
+        i.fa-brands.fa-tiktok.bg-blue.p-2.rounded-lg.cursor-pointer.transition-all.duration-300(class='hover:rounded-full')
+        i.fa-brands.fa-facebook.bg-blue.p-2.rounded-lg.cursor-pointer.transition-all.duration-300(class='hover:rounded-full')
+        i.fa-brands.fa-linkedin.bg-blue.p-2.rounded-lg.cursor-pointer.transition-all.duration-300(class='hover:rounded-full')
+      div
+        p &copy; 2021 Tokners. All rights reserved.
+        a.text-lg.font-bold.text-green(href='https://sm8rtdev.online/') DESIGN BY HESSEN NASSER
+script(src='main.js')
